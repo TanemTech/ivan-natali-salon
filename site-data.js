@@ -1,6 +1,5 @@
 (function(global){
 'use strict';
-// TANEM production site: sourced from salon's business.json, with no demo content.
 const data={
   "schemaVersion": 1,
   "mode": "production",
@@ -13,91 +12,57 @@ const data={
   "salon": {
     "name": {
       "ru": "Натали",
-      "en": "Natali",
-      "hy": ""
+      "en": "Natali"
     },
     "kind": {
       "ru": "Салон красоты",
-      "en": "Beauty salon",
-      "hy": ""
+      "en": "Beauty salon"
     },
     "city": {
       "ru": "Москва",
-      "en": "Moscow",
-      "hy": ""
+      "en": "Moscow"
     },
     "address": {
       "ru": "ул. Академика Королёва, 9, корп. 1",
-      "en": "9, bldg. 1, Akademika Korolyova St.",
-      "hy": ""
+      "en": "9 Akademika Korolyova St., bldg. 1"
     },
     "fullAddress": {
-      "ru": "Россия, Москва, улица Академика Королёва, 9, корп. 1, 129515, этаж 1",
-      "en": "9, building 1, Akademika Korolyova Street, Moscow, 129515, Russia (1st floor)",
-      "hy": ""
+      "ru": "Москва, улица Академика Королёва, 9, корпус 1, 129515, 1-й этаж",
+      "en": "9 Akademika Korolyova Street, building 1, Moscow 129515, Russia, 1st floor"
     },
     "heroDescription": {
       "ru": "Ваша красота. Ваша уверенность.",
-      "en": "Your beauty. Your confidence.",
-      "hy": ""
+      "en": "Your beauty. Your confidence."
     },
     "about": {
       "ru": "В основе нашей работы — профессиональный подход, внимание к деталям и уважение к индивидуальности каждого гостя. Мы создаём комфортное пространство, где качество и забота остаются главным приоритетом.",
-      "en": "Our work is built on professionalism, attention to detail, and respect for every guest’s individuality. We create a comfortable space where quality and care remain our highest priorities.",
-      "hy": ""
+      "en": "Our work is built on professionalism, attention to detail, and respect for every guest’s individuality. We create a comfortable space where quality and care remain our highest priorities."
     }
   },
   "schedule": {
     "timezone": "Europe/Moscow",
-    "periods": [
-      {
-        "days": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7
-        ],
-        "open": "09:00",
-        "close": "21:00"
-      }
-    ],
+    "periods": [],
     "fallback": {
-      "ru": "Ежедневно с 09:00 до 21:00",
-      "en": "Daily 9 AM–9 PM",
-      "hy": ""
+      "ru": "По предварительной записи",
+      "en": "By appointment"
     }
   },
   "contacts": {
     "phone": "+7 (967) 228-86-00",
     "phoneLabel": {
       "ru": "Позвонить",
-      "en": "Call",
-      "hy": ""
+      "en": "Call"
     },
-    "messengerUrl": "https://wa.me/79672288600",
+    "messengerUrl": "https://t.me/+79672288600",
     "messengerLabel": {
-      "ru": "WhatsApp",
-      "en": "WhatsApp",
-      "hy": ""
+      "ru": "Telegram",
+      "en": "Telegram"
     },
-    "messengerHandle": "+7 967 228-86-00",
-    "mapUrl": "https://yandex.ru/maps/org/1031010152/",
+    "messengerHandle": "",
+    "mapUrl": "https://yandex.ru/maps/org/natali/1031010152/",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?oid=1031010152",
-    "reviewsUrl": "https://yandex.ru/maps/org/1031010152/reviews/",
-    "booking": [
-      {
-        "type": "online",
-        "label": {
-          "ru": "Онлайн-запись",
-          "en": "Book online",
-          "hy": ""
-        },
-        "url": "https://widget.sonline.su/ru/services/?placeid=959792372"
-      }
-    ]
+    "reviewsUrl": "https://yandex.ru/maps/org/natali/1031010152/reviews/",
+    "booking": []
   },
   "rating": {
     "value": 4.8,
@@ -109,798 +74,699 @@ const data={
       {
         "src": "hero.webp",
         "alt": {
-          "ru": "Интерьер салона красоты «Натали»",
-          "en": "Inside Natali beauty salon",
-          "hy": ""
+          "ru": "Салон красоты «Натали»",
+          "en": "Natali beauty salon"
         }
       }
     ],
     "about": "profile.webp",
     "portfolio": [
       {
-        "src": "assets/Gallery-07.webp",
+        "src": "gallery-01.webp",
         "alt": {
-          "ru": "Укладка волос",
-          "en": "Hairstyling",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-12.webp",
+        "src": "gallery-02.webp",
         "alt": {
-          "ru": "Локоны",
-          "en": "Curly hair",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-34.webp",
+        "src": "gallery-03.webp",
         "alt": {
-          "ru": "Окрашивание волос",
-          "en": "Hair coloring",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-18.webp",
+        "src": "gallery-04.webp",
         "alt": {
-          "ru": "Маникюр",
-          "en": "Manicure",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-19.webp",
+        "src": "gallery-05.webp",
         "alt": {
-          "ru": "Дизайн ногтей",
-          "en": "Nail design",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-22.webp",
+        "src": "gallery-06.webp",
         "alt": {
-          "ru": "Маникюр с покрытием",
-          "en": "Nail polish",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-38.webp",
+        "src": "gallery-07.webp",
         "alt": {
-          "ru": "Дизайн ногтей",
-          "en": "Nail design",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-41.webp",
+        "src": "gallery-08.webp",
         "alt": {
-          "ru": "Маникюр",
-          "en": "Manicure",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       },
       {
-        "src": "assets/Gallery-13.webp",
+        "src": "gallery-09.webp",
         "alt": {
-          "ru": "Мужская стрижка",
-          "en": "Men's haircut",
-          "hy": ""
+          "ru": "Фотография салона красоты «Натали»",
+          "en": "Photo from Natali beauty salon"
         }
       }
     ],
     "gallery": {
-      "Салон": [
+      "Фотографии": [
         {
-          "src": "assets/Gallery-02.webp",
+          "src": "gallery-01.webp",
           "alt": {
-            "ru": "Интерьер салона «Натали»",
-            "en": "Natali beauty salon",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-03.webp",
+          "src": "gallery-02.webp",
           "alt": {
-            "ru": "Интерьер салона «Натали»",
-            "en": "Natali beauty salon",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-04.webp",
+          "src": "gallery-03.webp",
           "alt": {
-            "ru": "Интерьер салона «Натали»",
-            "en": "Natali beauty salon",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-36.webp",
+          "src": "gallery-04.webp",
           "alt": {
-            "ru": "Интерьер салона «Натали»",
-            "en": "Natali beauty salon",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-48.webp",
+          "src": "gallery-05.webp",
           "alt": {
-            "ru": "Интерьер салона «Натали»",
-            "en": "Natali beauty salon",
-            "hy": ""
-          }
-        }
-      ],
-      "Волосы": [
-        {
-          "src": "assets/Gallery-07.webp",
-          "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-09.webp",
+          "src": "gallery-06.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-12.webp",
+          "src": "gallery-07.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-13.webp",
+          "src": "gallery-08.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-14.webp",
+          "src": "gallery-09.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-25.webp",
+          "src": "gallery-10.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-27.webp",
+          "src": "gallery-11.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-30.webp",
+          "src": "gallery-12.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-34.webp",
+          "src": "gallery-13.webp",
           "alt": {
-            "ru": "Стрижки и окрашивание волос",
-            "en": "Haircuts and coloring",
-            "hy": ""
-          }
-        }
-      ],
-      "Ногти": [
-        {
-          "src": "assets/Gallery-08.webp",
-          "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-17.webp",
+          "src": "gallery-14.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-18.webp",
+          "src": "gallery-15.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-19.webp",
+          "src": "gallery-16.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-20.webp",
+          "src": "gallery-17.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-21.webp",
+          "src": "gallery-18.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-22.webp",
+          "src": "gallery-19.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-23.webp",
+          "src": "gallery-20.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-35.webp",
+          "src": "gallery-21.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-38.webp",
+          "src": "gallery-22.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         },
         {
-          "src": "assets/Gallery-41.webp",
+          "src": "gallery-23.webp",
           "alt": {
-            "ru": "Маникюр и дизайн ногтей",
-            "en": "Manicure and nail design",
-            "hy": ""
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
+          }
+        },
+        {
+          "src": "gallery-24.webp",
+          "alt": {
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
+          }
+        },
+        {
+          "src": "gallery-25.webp",
+          "alt": {
+            "ru": "Фотография салона красоты «Натали»",
+            "en": "Photo from Natali beauty salon"
           }
         }
       ]
     },
     "desktopGalleryLimits": {
-      "Салон": 5,
-      "Волосы": 9,
-      "Ногти": 11
+      "Фотографии": 9
     }
   },
   "categoryLabels": {
-    "Окрашивание": {
-      "ru": "Окрашивание",
-      "en": "Hair Coloring",
-      "hy": ""
+    "Женские стрижки и укладки": {
+      "ru": "Женские стрижки и укладки",
+      "en": "Women's cuts and styling"
     },
-    "Стрижки и укладки": {
-      "ru": "Стрижки и укладки",
-      "en": "Haircuts & Styling",
-      "hy": ""
+    "Окрашивание волос": {
+      "ru": "Окрашивание волос",
+      "en": "Hair coloring"
     },
     "Мужской зал": {
       "ru": "Мужской зал",
-      "en": "Men's Haircuts",
-      "hy": ""
+      "en": "Men's grooming"
     },
     "Маникюр": {
       "ru": "Маникюр",
-      "en": "Manicure",
-      "hy": ""
-    },
-    "Брови и ресницы": {
-      "ru": "Брови и ресницы",
-      "en": "Brows & Lashes",
-      "hy": ""
-    },
-    "Услуги для ногтей": {
-      "ru": "Услуги для ногтей",
-      "en": "Nail Extras",
-      "hy": ""
+      "en": "Manicure"
     },
     "Наращивание ногтей": {
       "ru": "Наращивание ногтей",
-      "en": "Nail Extensions",
-      "hy": ""
+      "en": "Nail extensions"
     },
     "Педикюр": {
       "ru": "Педикюр",
-      "en": "Pedicure",
-      "hy": ""
+      "en": "Pedicure"
+    },
+    "Брови и ресницы": {
+      "ru": "Брови и ресницы",
+      "en": "Brows and lashes"
+    },
+    "Дополнительные услуги": {
+      "ru": "Дополнительные услуги",
+      "en": "Nail extras"
     }
   },
   "categoryOrder": [
-    "Окрашивание",
-    "Стрижки и укладки",
+    "Женские стрижки и укладки",
+    "Окрашивание волос",
     "Мужской зал",
     "Маникюр",
-    "Брови и ресницы",
-    "Услуги для ногтей",
     "Наращивание ногтей",
-    "Педикюр"
+    "Педикюр",
+    "Брови и ресницы",
+    "Дополнительные услуги"
   ],
   "services": [
     {
-      "id": "service-01",
-      "category": "Окрашивание",
+      "id": "natali-001",
+      "category": "Окрашивание волос",
       "title": {
-        "ru": "Декапирование/смывка (стоимость работы)",
-        "en": "Color stripping / removal (labor only)",
-        "hy": ""
+        "ru": "Декапирование / смывка (стоимость работы)",
+        "en": "Color removal (service only)"
       },
-      "price": "от 1 200 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "1 200 ₽"
+          "price": "1 200 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "1 500 ₽"
+          "price": "1 500 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 800 ₽"
+          "price": "1 800 ₽"
         }
       ]
     },
     {
-      "id": "service-02",
-      "category": "Окрашивание",
+      "id": "natali-004",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Колорирование (стоимость работы)",
-        "en": "Multi-tone coloring (labor only)",
-        "hy": ""
+        "en": "Multi-tone hair coloring (service only)"
       },
-      "price": "от 2 000 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "2 000 ₽"
+          "price": "2 000 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "2 500 ₽"
+          "price": "2 500 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "2 800 ₽"
+          "price": "2 800 ₽"
         }
       ]
     },
     {
-      "id": "service-03",
-      "category": "Окрашивание",
+      "id": "natali-007",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Мелирование (стоимость работы)",
-        "en": "Highlights (labor only)",
-        "hy": ""
+        "en": "Highlights (service only)"
       },
-      "price": "от 1 300 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "1 300 ₽"
+          "price": "1 300 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "1 600 ₽"
+          "price": "1 600 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "2 000 ₽"
+          "price": "2 000 ₽"
         }
       ]
     },
     {
-      "id": "service-04",
-      "category": "Окрашивание",
+      "id": "natali-010",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Окрашивание (стоимость работы)",
-        "en": "Hair coloring (labor only)",
-        "hy": ""
+        "en": "Hair coloring (service only)"
       },
-      "price": "от 1 100 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "1 100 ₽"
+          "price": "1 100 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "1 300 ₽"
+          "price": "1 300 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 500 ₽"
+          "price": "1 500 ₽"
         }
       ]
     },
     {
-      "id": "service-05",
-      "category": "Окрашивание",
+      "id": "natali-013",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Окрашивание красителем клиента",
-        "en": "Coloring with client's dye",
-        "hy": ""
+        "en": "Hair coloring with client's dye"
       },
-      "price": "от 1 200 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "1 200 ₽"
+          "price": "1 200 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "1 400 ₽"
+          "price": "1 400 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 700 ₽"
+          "price": "1 700 ₽"
         }
       ]
     },
     {
-      "id": "service-06",
-      "category": "Окрашивание",
+      "id": "natali-016",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Осветление (стоимость работы)",
-        "en": "Hair lightening (labor only)",
-        "hy": ""
+        "en": "Hair lightening (service only)"
       },
-      "price": "от 1 300 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "1 300 ₽"
+          "price": "1 300 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "1 600 ₽"
+          "price": "1 600 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 900 ₽"
+          "price": "1 900 ₽"
         }
       ]
     },
     {
-      "id": "service-07",
-      "category": "Окрашивание",
+      "id": "natali-019",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Тонирование (стоимость работы)",
-        "en": "Hair toning (labor only)",
-        "hy": ""
+        "en": "Hair toning (service only)"
       },
-      "price": "от 600 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "600 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
           "price": "800 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 000 ₽"
+          "price": "1 000 ₽"
         }
       ]
     },
     {
-      "id": "service-08",
-      "category": "Окрашивание",
+      "id": "natali-022",
+      "category": "Окрашивание волос",
       "title": {
         "ru": "Частичное мелирование (стоимость работы)",
-        "en": "Partial highlights (labor only)",
-        "hy": ""
+        "en": "Partial highlights (service only)"
       },
-      "price": "от 800 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "800 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "1 000 ₽"
+          "price": "1 000 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 200 ₽"
+          "price": "1 200 ₽"
         }
       ]
     },
     {
-      "id": "service-09",
-      "category": "Стрижки и укладки",
+      "id": "natali-025",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Вытягивание волос (утюжком, феном)",
-        "en": "Hair straightening (flat iron or blow-dryer)",
-        "hy": ""
+        "en": "Hair straightening (flat iron / dryer)"
       },
-      "price": "от 600 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "600 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
           "price": "900 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 000 ₽"
+          "price": "1 000 ₽"
         }
       ]
     },
     {
-      "id": "service-10",
-      "category": "Стрижки и укладки",
+      "id": "natali-028",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Детская стрижка до 6 лет (с мытьем,сушкой)",
-        "en": "Children's haircut under 6 (wash and dry)",
-        "hy": ""
+        "en": "Children's haircut up to age 6 (wash and dry)"
       },
-      "price": "от 550 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "550 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
           "price": "600 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
           "price": "650 ₽"
@@ -908,157 +774,139 @@ const data={
       ]
     },
     {
-      "id": "service-11",
-      "category": "Стрижки и укладки",
+      "id": "natali-031",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Женская стрижка (с мытьем и сушкой)",
-        "en": "Women's haircut (wash and dry)",
-        "hy": ""
+        "en": "Women's haircut (wash and dry)"
       },
-      "price": "от 800 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "800 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
           "price": "900 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 000 ₽"
+          "price": "1 000 ₽"
         }
       ]
     },
     {
-      "id": "service-12",
-      "category": "Стрижки и укладки",
+      "id": "natali-034",
+      "category": "Женские стрижки и укладки",
       "title": {
-        "ru": "Коктейльная/вечерняя прическа",
-        "en": "Cocktail / evening hairstyle",
-        "hy": ""
+        "ru": "Коктейльная / вечерняя прическа",
+        "en": "Evening hairstyle"
       },
-      "price": "700–3 000 ₽",
+      "price": "700–3 000 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-13",
-      "category": "Стрижки и укладки",
+      "id": "natali-035",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Плетение косичек",
-        "en": "Braiding",
-        "hy": ""
+        "en": "Braiding"
       },
-      "price": "400–1 000 ₽",
+      "price": "400–1 000 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-14",
-      "category": "Стрижки и укладки",
+      "id": "natali-036",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Подравнивание волос (одним срезом)",
-        "en": "One-length hair trim",
-        "hy": ""
+        "en": "Hair trim (straight cut)"
       },
       "price": "200–350 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-15",
-      "category": "Стрижки и укладки",
+      "id": "natali-037",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Стрижка челки (с сушкой по форме)",
-        "en": "Fringe trim with styling",
-        "hy": ""
+        "en": "Fringe trim and styling"
       },
       "price": "300 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-16",
-      "category": "Стрижки и укладки",
+      "id": "natali-038",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Сушка феном по форме",
-        "en": "Blow-drying",
-        "hy": ""
+        "en": "Blow-dry"
       },
-      "price": "от 300 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "300 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
           "price": "400 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
           "price": "500 ₽"
@@ -1066,568 +914,502 @@ const data={
       ]
     },
     {
-      "id": "service-17",
-      "category": "Стрижки и укладки",
+      "id": "natali-041",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Укладка феном",
-        "en": "Blowout styling",
-        "hy": ""
+        "en": "Blowout styling"
       },
-      "price": "от 600 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
           "price": "600 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
           "price": "800 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "1 000 ₽"
+          "price": "1 000 ₽"
         }
       ]
     },
     {
-      "id": "service-18",
-      "category": "Стрижки и укладки",
+      "id": "natali-044",
+      "category": "Женские стрижки и укладки",
       "title": {
         "ru": "Химическая завивка",
-        "en": "Perm",
-        "hy": ""
+        "en": "Perm"
       },
-      "price": "от 2 200 ₽",
+      "price": "",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": [
         {
           "label": {
-            "ru": "Короткие — до 10 см",
-            "en": "Short — up to 10 cm",
-            "hy": ""
+            "ru": "Короткие до 10 см",
+            "en": "Short hair (up to 10 cm)"
           },
           "duration": "",
-          "price": "2 200 ₽"
+          "price": "2 200 ₽"
         },
         {
           "label": {
-            "ru": "Средние — до 25 см",
-            "en": "Medium — up to 25 cm",
-            "hy": ""
+            "ru": "Средние до 25 см",
+            "en": "Medium hair (up to 25 cm)"
           },
           "duration": "",
-          "price": "2 600 ₽"
+          "price": "2 600 ₽"
         },
         {
           "label": {
-            "ru": "Длинные — до 40 см",
-            "en": "Long — up to 40 cm",
-            "hy": ""
+            "ru": "Длинные до 40 см",
+            "en": "Long hair (up to 40 cm)"
           },
           "duration": "",
-          "price": "3 000 ₽"
+          "price": "3 000 ₽"
         }
       ]
     },
     {
-      "id": "service-19",
+      "id": "natali-047",
       "category": "Мужской зал",
       "title": {
-        "ru": "Моделирование бороды",
-        "en": "Beard shaping",
-        "hy": ""
+        "ru": "Моделрование бороды",
+        "en": "Beard shaping"
       },
       "price": "600 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-20",
+      "id": "natali-048",
       "category": "Мужской зал",
       "title": {
         "ru": "Окантовка",
-        "en": "Hairline trimming",
-        "hy": ""
+        "en": "Hairline edging"
       },
       "price": "300 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-21",
+      "id": "natali-049",
       "category": "Мужской зал",
       "title": {
         "ru": "Рисунки",
-        "en": "Hair designs",
-        "hy": ""
+        "en": "Hair designs"
       },
       "price": "150–200 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-22",
+      "id": "natali-050",
       "category": "Мужской зал",
       "title": {
         "ru": "Стрижка детская (до 6 лет) (с мытьем и сушкой)",
-        "en": "Children's haircut under 6 (wash and dry)",
-        "hy": ""
+        "en": "Children's haircut (wash and dry)"
       },
       "price": "600 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-23",
+      "id": "natali-051",
       "category": "Мужской зал",
       "title": {
         "ru": "Стрижка машинкой (с мытьем и сушкой)",
-        "en": "Clipper haircut (wash and dry)",
-        "hy": ""
+        "en": "Clipper haircut (wash and dry)"
       },
       "price": "500 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-24",
+      "id": "natali-052",
       "category": "Мужской зал",
       "title": {
         "ru": "Стрижка машинкой наголо (с мытьем и сушкой)",
-        "en": "Buzz cut (wash and dry)",
-        "hy": ""
+        "en": "Buzz cut (wash and dry)"
       },
       "price": "300 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-25",
+      "id": "natali-053",
       "category": "Мужской зал",
       "title": {
         "ru": "Стрижка модельная (с мытьем и сушкой)",
-        "en": "Styled men's haircut (wash and dry)",
-        "hy": ""
+        "en": "Styled men's haircut (wash and dry)"
       },
       "price": "800 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-26",
+      "id": "natali-054",
       "category": "Мужской зал",
       "title": {
         "ru": "Укладка",
-        "en": "Styling",
-        "hy": ""
+        "en": "Styling"
       },
       "price": "250 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-27",
+      "id": "natali-055",
       "category": "Маникюр",
       "title": {
         "ru": "Коррекция без укрепления",
-        "en": "Nail correction without strengthening",
-        "hy": ""
+        "en": "Nail refill without strengthening"
       },
-      "price": "2 300 ₽",
+      "price": "2 300 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-28",
+      "id": "natali-056",
       "category": "Маникюр",
       "title": {
         "ru": "Коррекция с укреплением",
-        "en": "Nail correction with strengthening",
-        "hy": ""
+        "en": "Nail refill with strengthening"
       },
-      "price": "2 800 ₽",
+      "price": "2 800 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-29",
+      "id": "natali-057",
       "category": "Маникюр",
       "title": {
         "ru": "Маникюр + гель лак",
-        "en": "Manicure + gel polish",
-        "hy": ""
+        "en": "Manicure with gel polish"
       },
-      "price": "1 900 ₽",
+      "price": "1 900 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-30",
+      "id": "natali-058",
       "category": "Маникюр",
       "title": {
-        "ru": "Маникюр + лак/лечебный лак",
-        "en": "Manicure + nail polish / treatment polish",
-        "hy": ""
+        "ru": "Маникюр + лак / лечебный лак",
+        "en": "Manicure with polish / treatment polish"
       },
-      "price": "1 250 ₽",
+      "price": "1 250 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-31",
+      "id": "natali-059",
       "category": "Маникюр",
       "title": {
         "ru": "Маникюр женский (класс., комбо.,аппарат.)",
-        "en": "Women's manicure (classic, combined or e-file)",
-        "hy": ""
+        "en": "Women's manicure (classic, combined or e-file)"
       },
-      "price": "1 000 ₽",
+      "price": "1 000 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-32",
+      "id": "natali-060",
       "category": "Брови и ресницы",
       "title": {
         "ru": "Коррекция бровей",
-        "en": "Eyebrow shaping",
-        "hy": ""
+        "en": "Brow shaping"
       },
       "price": "400 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-33",
+      "id": "natali-061",
       "category": "Брови и ресницы",
       "title": {
         "ru": "Окрашивание бровей",
-        "en": "Eyebrow tinting",
-        "hy": ""
+        "en": "Brow tint"
       },
       "price": "400 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-34",
+      "id": "natali-062",
       "category": "Брови и ресницы",
       "title": {
         "ru": "Окрашивание ресниц",
-        "en": "Eyelash tinting",
-        "hy": ""
+        "en": "Lash tint"
       },
       "price": "400 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-35",
+      "id": "natali-063",
       "category": "Брови и ресницы",
       "title": {
         "ru": "Форма бровей",
-        "en": "Eyebrow styling",
-        "hy": ""
+        "en": "Brow design"
       },
       "price": "500 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-36",
-      "category": "Услуги для ногтей",
+      "id": "natali-064",
+      "category": "Дополнительные услуги",
       "title": {
         "ru": "Дизайн",
-        "en": "Nail art",
-        "hy": ""
+        "en": "Nail art"
       },
       "price": "100 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-37",
-      "category": "Услуги для ногтей",
+      "id": "natali-065",
+      "category": "Дополнительные услуги",
       "title": {
         "ru": "Ремонт одного ногтя",
-        "en": "Single nail repair",
-        "hy": ""
+        "en": "Single nail repair"
       },
       "price": "300 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-38",
-      "category": "Услуги для ногтей",
+      "id": "natali-066",
+      "category": "Дополнительные услуги",
       "title": {
         "ru": "Снятие гель-лака",
-        "en": "Gel polish removal",
-        "hy": ""
+        "en": "Gel polish removal"
       },
       "price": "500 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-39",
-      "category": "Услуги для ногтей",
+      "id": "natali-067",
+      "category": "Дополнительные услуги",
       "title": {
         "ru": "Форма ногтей",
-        "en": "Nail shaping",
-        "hy": ""
+        "en": "Nail shaping"
       },
       "price": "500 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-40",
+      "id": "natali-068",
       "category": "Наращивание ногтей",
       "title": {
         "ru": "Коррекция + маникюр + гель-лак",
-        "en": "Nail extension fill + manicure + gel polish",
-        "hy": ""
+        "en": "Nail refill, manicure and gel polish"
       },
-      "price": "3 100 ₽",
+      "price": "3 100 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-41",
+      "id": "natali-069",
       "category": "Наращивание ногтей",
       "title": {
         "ru": "Наращивание + маникюр + гель-лак",
-        "en": "Nail extensions + manicure + gel polish",
-        "hy": ""
+        "en": "Nail extensions, manicure and gel polish"
       },
-      "price": "3 500 ₽",
+      "price": "3 500 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-42",
+      "id": "natali-070",
       "category": "Наращивание ногтей",
       "title": {
         "ru": "Наращивание одного ногтя",
-        "en": "Single nail extension",
-        "hy": ""
+        "en": "Single nail extension"
       },
       "price": "500 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-43",
+      "id": "natali-071",
       "category": "Наращивание ногтей",
       "title": {
         "ru": "Снятие нарощенных ногтей",
-        "en": "Nail extension removal",
-        "hy": ""
+        "en": "Nail extension removal"
       },
       "price": "800 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-44",
+      "id": "natali-072",
       "category": "Педикюр",
       "title": {
         "ru": "Педикюр + гель-лак",
-        "en": "Pedicure + gel polish",
-        "hy": ""
+        "en": "Pedicure with gel polish"
       },
-      "price": "3 000 ₽",
+      "price": "3 000 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-45",
+      "id": "natali-073",
       "category": "Педикюр",
       "title": {
-        "ru": "Педикюр + лак/лечебный лак",
-        "en": "Pedicure + nail polish / treatment polish",
-        "hy": ""
+        "ru": "Педикюр + лак / лечебный лак",
+        "en": "Pedicure with polish / treatment polish"
       },
-      "price": "2 100 ₽",
+      "price": "2 100 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     },
     {
-      "id": "service-46",
+      "id": "natali-074",
       "category": "Педикюр",
       "title": {
         "ru": "Педикюр женский (класс.,комбо.,аппарат.)",
-        "en": "Women's pedicure (classic, combined or e-file)",
-        "hy": ""
+        "en": "Women's pedicure (classic, combined or e-file)"
       },
-      "price": "1 750 ₽",
+      "price": "1 750 ₽",
       "duration": "",
       "description": {
         "ru": "",
-        "en": "",
-        "hy": ""
+        "en": ""
       },
       "variants": []
     }
@@ -1635,189 +1417,160 @@ const data={
   "team": [],
   "reviews": [
     {
-      "id": "yandex-review-01",
+      "id": "review-01",
+      "author": {
+        "ru": "Надежда К.",
+        "en": "Надежда К."
+      },
+      "text": {
+        "ru": "Муж является клиентом этого салона давно, я впервые решилась на стрижку в этом салоне Записалась к мастеру Асмик. Показала несколько фотографий что бы хотела, посоветовалась и доверилась прекрасной девушке и великолепному мастеру. Асмик очень аккуратная, внимательная и обходительная, огромное ей спасибо. Мне все понравилось, я осталась довольна, уверена, что приду еще. Спектр услуг салона большой, уютно, комфортно, рекомендую",
+        "en": "Муж является клиентом этого салона давно, я впервые решилась на стрижку в этом салоне Записалась к мастеру Асмик. Показала несколько фотографий что бы хотела, посоветовалась и доверилась прекрасной девушке и великолепному мастеру. Асмик очень аккуратная, внимательная и обходительная, огромное ей спасибо. Мне все понравилось, я осталась довольна, уверена, что приду еще. Спектр услуг салона большой, уютно, комфортно, рекомендую"
+      },
+      "rating": 5,
+      "source": {
+        "ru": "Яндекс Карты",
+        "en": "Yandex Maps"
+      },
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
+    },
+    {
+      "id": "review-02",
       "author": {
         "ru": "Deni_Che",
-        "en": "Deni_Che",
-        "hy": ""
+        "en": "Deni_Che"
       },
       "text": {
         "ru": "Записался онлайн, очень удобно. Пришёл к назначенному времени, без каких либо ожиданий и проволочек подстригся. Мастер Бек- профессионал своего дела, 15 мин и я свободен, хотя в других парикмахерских доходит до часа🫩",
-        "en": "Online booking was very convenient. I arrived on time, had no waiting, and got my haircut. Bek is a true professional — I was done in 15 minutes, while other barbershops can take up to an hour.",
-        "hy": ""
+        "en": "Записался онлайн, очень удобно. Пришёл к назначенному времени, без каких либо ожиданий и проволочек подстригся. Мастер Бек- профессионал своего дела, 15 мин и я свободен, хотя в других парикмахерских доходит до часа🫩"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-02",
+      "id": "review-03",
       "author": {
-        "ru": "Елена Селиванова",
-        "en": "Елена Селиванова",
-        "hy": ""
+        "ru": "Виктория Холод",
+        "en": "Виктория Холод"
       },
       "text": {
-        "ru": "Хожу в этот салон постоянно на стрижку, всё отлично.Сегодня была первый раз на маникюре у Бемы, очень понравилось.Сделала всё быстро и аккуратно.Буду ходить теперь именно к ней.Отлично сочетаются цена-качество!Спасибо большое!",
-        "en": "I regularly come here for haircuts and everything is excellent. Today I tried a manicure with Bema for the first time and loved it. She was quick and careful. Great value for money!",
-        "hy": ""
+        "ru": "Была сегодня срочно потребовалась укладка. В Натали для меня нашли окошко. Выбор укладки предложила мастеру. Осталась очень довольна выбором. Зайду сюда на окрашивание как-нибудь. Обновление от 15.06.26 Благодарю Асмик за чудесные локоны и радушный приём.",
+        "en": "Была сегодня срочно потребовалась укладка. В Натали для меня нашли окошко. Выбор укладки предложила мастеру. Осталась очень довольна выбором. Зайду сюда на окрашивание как-нибудь. Обновление от 15.06.26 Благодарю Асмик за чудесные локоны и радушный приём."
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-03",
+      "id": "review-04",
       "author": {
-        "ru": "Экатерина Мебония",
-        "en": "Экатерина Мебония",
-        "hy": ""
+        "ru": "Ирина В.",
+        "en": "Ирина В."
       },
       "text": {
-        "ru": "Рекомендую салон \"Натали\". Цены доступные, качество на уровне, атмосфера благоприятная. Отдельное спасибо стилисту Замире. Хожу к ней не первый раз на окрашивание и укладку. Очень довольна. Профессионал!!!",
-        "en": "I recommend Natali salon. Prices are affordable, the quality is good and the atmosphere is pleasant. Special thanks to stylist Zamira. I come to her for coloring and styling and am very satisfied.",
-        "hy": ""
+        "ru": "После того, как в салоне моего постоянного мастера взлетели цены, долго искала парикмахерскую, которая устроила бы меня по ценам. Нашла салон Натали. Была у трёх мастеров. Все работали хорошо, но меня не устраивало, все время сравнивала с моим мастером. Попала к Асе. И поняла, что это мой мастер. Все, как я хочу. Теперь хожу только к ней. Спасибо, Ася!",
+        "en": "После того, как в салоне моего постоянного мастера взлетели цены, долго искала парикмахерскую, которая устроила бы меня по ценам. Нашла салон Натали. Была у трёх мастеров. Все работали хорошо, но меня не устраивало, все время сравнивала с моим мастером. Попала к Асе. И поняла, что это мой мастер. Все, как я хочу. Теперь хожу только к ней. Спасибо, Ася!"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-04",
+      "id": "review-05",
       "author": {
-        "ru": "Наталья Дымова",
-        "en": "Наталья Дымова",
-        "hy": ""
+        "ru": "тата м.",
+        "en": "тата м."
       },
       "text": {
-        "ru": "Отличный мастер маникюра-педикюра Марина:) профи своего дела! Редко к таким профессионалам попадаешь! Благодарю ее за советы и итог:) все очень тщательно сделано и с любовью к своей профессии! Рекомендую однозначно:)",
-        "en": "Marina is an excellent manicure and pedicure specialist, a true professional! Everything was done thoroughly and with genuine care. Thank you for the advice and the result. Highly recommended!",
-        "hy": ""
+        "ru": "Отдельное спасибо хочу выразить мастеру Замире! Ходим к ней с дочерью на стрижку и не только уже не первый год! С моими запросами все по проще ! Но вот с «экстравагантными» запросами подростка справится не так легко! Но благодаря Замире, ее профессионализму и способности доходчиво и легко объяснить, что «этот вариант тебе не пойдет, а лучше сделать так», получается переубедить. А самое главное, чтобы, как говорит мастер: «Сделаем, чтобы не обидеть клиента, наиболее приближенно запросу, но в то же время, чтобы соответствовало структуре волос». Дочь была в восторге! P.S. Ей 9 лет и хочет ходить только к ней, потому что она исполняет шикарно все ее запросы !!!",
+        "en": "Отдельное спасибо хочу выразить мастеру Замире! Ходим к ней с дочерью на стрижку и не только уже не первый год! С моими запросами все по проще ! Но вот с «экстравагантными» запросами подростка справится не так легко! Но благодаря Замире, ее профессионализму и способности доходчиво и легко объяснить, что «этот вариант тебе не пойдет, а лучше сделать так», получается переубедить. А самое главное, чтобы, как говорит мастер: «Сделаем, чтобы не обидеть клиента, наиболее приближенно запросу, но в то же время, чтобы соответствовало структуре волос». Дочь была в восторге! P.S. Ей 9 лет и хочет ходить только к ней, потому что она исполняет шикарно все ее запросы !!!"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-05",
+      "id": "review-06",
       "author": {
-        "ru": "Татьяна Валентинова",
-        "en": "Татьяна Валентинова",
-        "hy": ""
+        "ru": "Максим Ч.",
+        "en": "Максим Ч."
       },
       "text": {
-        "ru": "Хочу выразить благодарность женскому мастеру Эльнуре. Делаю модельную стрижку .Хожу к ней не первый раз. Очень довольна, что нашла мастера с чувством стиля. Каждый раз выхожу от неё с замечательным настроением. Спасибо огромное! 😘",
-        "en": "I want to thank the women's hairstylist Elnura. I've been coming to her for a styled haircut for some time. I'm happy to have found someone with such a sense of style. I leave in a wonderful mood every time!",
-        "hy": ""
+        "ru": "Подстригался 7 лет у одного мастера, в другой парикмахерской. Переехал и стало далеко добираться до того места, пришлось искать что то рядом. Пришло время стричься и пошел с опаской и недоверием в данный салон. Попал на мастера Элю и в итоге остался в полностью доволен! Профессионал своего дела и очень легкая рука))) практически не ощущаются прикосновения рук к голове. Рекомендую! PS. Дочку тоже приводил в этот салон и она так же была довольна 😊",
+        "en": "Подстригался 7 лет у одного мастера, в другой парикмахерской. Переехал и стало далеко добираться до того места, пришлось искать что то рядом. Пришло время стричься и пошел с опаской и недоверием в данный салон. Попал на мастера Элю и в итоге остался в полностью доволен! Профессионал своего дела и очень легкая рука))) практически не ощущаются прикосновения рук к голове. Рекомендую! PS. Дочку тоже приводил в этот салон и она так же была довольна 😊"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-06",
+      "id": "review-07",
       "author": {
-        "ru": "Светлана",
-        "en": "Светлана",
-        "hy": ""
+        "ru": "Vassa Pupkina",
+        "en": "Vassa Pupkina"
       },
       "text": {
-        "ru": "Много лет хожу к мастеру Беме.Мастер просто супер,профессионал своего дела.Знает подход к каждому клиенту,каждый раз ухожу от неё с прекрасным настроением,отличным маникюром и педикюром.Очень советую посетить Салон Натали.",
-        "en": "I've been going to Bema for many years. She's an outstanding professional who knows how to approach each client. I always leave with a great manicure and pedicure and in a good mood. I recommend Natali salon!",
-        "hy": ""
+        "ru": "Лучший салон красоты в Останкино 💖 Держат марку на протяжении многих лет. При этом цены абсолютно адекватные по сравнению с другими салонами или даже частными мастерами 👍 👏 Бема, Замира, Элнура - все мастера отличнейшие, очень профессиональные и внимательные 🫶🌺 На днях была у Марины - нового мастера ногтевого сервиса с большим опытом работы и знаниями в области подологии. Осталась в полном восторге и очень её рекомендую 💯 🔥",
+        "en": "Лучший салон красоты в Останкино 💖 Держат марку на протяжении многих лет. При этом цены абсолютно адекватные по сравнению с другими салонами или даже частными мастерами 👍 👏 Бема, Замира, Элнура - все мастера отличнейшие, очень профессиональные и внимательные 🫶🌺 На днях была у Марины - нового мастера ногтевого сервиса с большим опытом работы и знаниями в области подологии. Осталась в полном восторге и очень её рекомендую 💯 🔥"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-07",
+      "id": "review-08",
       "author": {
-        "ru": "marina-w-a",
-        "en": "marina-w-a",
-        "hy": ""
+        "ru": "Евгения К.",
+        "en": "Евгения К."
       },
       "text": {
-        "ru": "Хожу в салон \"Натали\" уже не один год к мастеру Замире.Очень нравится. Делаю Химическую завивку.Очень довольна . Всем рекомендую. Все очень приветливые и отзывчивые. Салон чистенький, просторный.",
-        "en": "I've been visiting Natali and getting perms from Zamira for years. I'm always very pleased. Everyone is friendly and helpful, and the salon is clean and spacious. Highly recommended!",
-        "hy": ""
+        "ru": "Не первый год хожу к Замире на стрижку и окрашивание и всегда остаюсь очень довольна результатом! В этот раз мне нужно было подготовиться к юбилею подруги. Я пришла вечером в салон, Замира поколдовала надо мной, в результате праздничая укладка сохранилась к празднику на следующий день!!! Хочу сказать большое спасибо моему мастеру!!!",
+        "en": "Не первый год хожу к Замире на стрижку и окрашивание и всегда остаюсь очень довольна результатом! В этот раз мне нужно было подготовиться к юбилею подруги. Я пришла вечером в салон, Замира поколдовала надо мной, в результате праздничая укладка сохранилась к празднику на следующий день!!! Хочу сказать большое спасибо моему мастеру!!!"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     },
     {
-      "id": "yandex-review-08",
+      "id": "review-09",
       "author": {
-        "ru": "Галя Галя",
-        "en": "Галя Галя",
-        "hy": ""
+        "ru": "Елена П.",
+        "en": "Елена П."
       },
       "text": {
-        "ru": "Сегодня делала маникюр у очень хорошего мастера, зовут её Бема.Очень осталась довольна результатом ее работы, спасибо большое за её профессионализм и прекрасное обслуживание!!!",
-        "en": "Today I had a manicure with Bema, a very good specialist. I am delighted with the result. Many thanks for her professionalism and excellent service!",
-        "hy": ""
+        "ru": "Хожу к мастеру Бэмме на маникюр уже давно. Она делает всё оперативно, очень аккуратно и с большим вниманием к деталям. Всегда бережно относится к ногтям, работает старательно и с душой. Результатом я всегда довольна, ни разу не было нареканий. Рекомендую Бэмму всем, кто ценит качественный маникюр и заботу!",
+        "en": "Хожу к мастеру Бэмме на маникюр уже давно. Она делает всё оперативно, очень аккуратно и с большим вниманием к деталям. Всегда бережно относится к ногтям, работает старательно и с душой. Результатом я всегда довольна, ни разу не было нареканий. Рекомендую Бэмму всем, кто ценит качественный маникюр и заботу!"
       },
       "rating": 5,
       "source": {
         "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
+        "en": "Yandex Maps"
       },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
-    },
-    {
-      "id": "yandex-review-09",
-      "author": {
-        "ru": "Алексей Ардаев",
-        "en": "Алексей Ардаев",
-        "hy": ""
-      },
-      "text": {
-        "ru": "Хорошая парикмахерская, персонал отзывчивый. Расказал что хочу по бороде и волосам на голове, сделали то что я хотел. Остался очень доволен.",
-        "en": "A good barbershop with helpful staff. I explained what I wanted for my beard and hair and they did exactly that. I was very satisfied.",
-        "hy": ""
-      },
-      "rating": 5,
-      "source": {
-        "ru": "Яндекс Карты",
-        "en": "Yandex Maps",
-        "hy": ""
-      },
-      "url": "https://yandex.ru/maps/org/1031010152/reviews/"
+      "url": "https://yandex.ru/maps/org/natali/1031010152/reviews/"
     }
   ]
 };
 global.TANEM_SITE_DATA=data;
-const rows=[];
-const collect=value=>{if(!value||typeof value!=='object')return;if(typeof value.ru==='string'&&typeof value.en==='string'&&typeof value.hy==='string'){if(value.ru)rows.push([value.ru,value.hy,value.en]);return;}if(Array.isArray(value))value.forEach(collect);else Object.values(value).forEach(collect);};
-collect(data);global.TANEM_SITE_I18N_ROWS=rows;
+const rows=[];const collect=value=>{if(!value||typeof value!=='object')return;if(typeof value.ru==='string'&&typeof value.en==='string'){if(value.ru)rows.push([value.ru,'',value.en]);return;}if(Array.isArray(value))value.forEach(collect);else Object.values(value).forEach(collect);};collect(data);global.TANEM_SITE_I18N_ROWS=rows;
 })(window);

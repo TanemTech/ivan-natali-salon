@@ -93,8 +93,6 @@ jobs:
             fi
           done
 
-          # Include client assets from the TANEM Exporter folder.
-          if [[ -d assets ]]; then cp -R assets _site/; fi
           touch _site/.nojekyll
 
           test ! -e _site/intake
