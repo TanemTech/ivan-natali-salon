@@ -108,10 +108,17 @@ def main():
     with sync_playwright() as playwright:
         browser = getattr(playwright, args.engine).launch(headless=True)
         try:
-            for case in [(1366, 900, False, "ru"), (1366, 900, False, "en"),
-                         (1366, 900, False, "hy"), (390, 844, True, "ru"),
-                         (390, 844, True, "en"), (390, 844, True, "hy"),
-                         (1180, 820, True, "ru")]:
+            # Production locale options depend on the country: RU only ru/en.
+            # Discover supported languages from the actual site, not a fixed list.
+            probe = browser.new_context()
+            probe_page = probe.new_page()
+            probe_page.goto(HOST, wait_until="domcontentloaded", timeout=30000)
+            locales = probe_page.evaluate("window.TANEM_SITE_DATA?.locales || ['ru','en']")
+            probe.close()
+            assert locales and "ru" in locales, f"Unexpected locale configuration: {locales}"
+            for case in ([(1366, 900, False, lang) for lang in locales] +
+                         [(390, 844, True, lang) for lang in locales] +
+                         [(1180, 820, True, "ru")]):
                 check(browser, *case)
         finally:
             browser.close()
